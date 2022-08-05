@@ -1,0 +1,1674 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"req",
+				"request"
+			],
+			[
+				"schoo",
+				"SchoolYear"
+			],
+			[
+				"school",
+				"schoolyear_id"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"json_",
+				"json_encode"
+			],
+			[
+				"allow",
+				"allowAccess"
+			],
+			[
+				"section",
+				"section_id"
+			],
+			[
+				"year",
+				"yearManagement"
+			],
+			[
+				"student",
+				"studentnumber"
+			],
+			[
+				"room",
+				"room_id"
+			],
+			[
+				"sms",
+				"sms_out"
+			],
+			[
+				"json",
+				"json_decode"
+			],
+			[
+				"Year",
+				"YearManagement"
+			],
+			[
+				"Con",
+				"Config"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"font-",
+				"font-family\tproperty"
+			],
+			[
+				"bol",
+				"bolder\tfont-weight"
+			],
+			[
+				"video",
+				"videoad"
+			],
+			[
+				"text-",
+				"text-center"
+			],
+			[
+				"data",
+				"data_parse"
+			],
+			[
+				"bo",
+				"bolder\tfont-weight"
+			],
+			[
+				"update",
+				"updateCurrentMonth"
+			],
+			[
+				"time",
+				"timelog"
+			],
+			[
+				"input",
+				"input-group"
+			],
+			[
+				"clien",
+				"client_id"
+			],
+			[
+				"acce",
+				"access_token"
+			],
+			[
+				"app",
+				"app_secret"
+			],
+			[
+				"Re",
+				"Request"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"get_de",
+				"get_defined_vars"
+			],
+			[
+				"menu",
+				"menu_items"
+			],
+			[
+				"It",
+				"Itlog"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"sub",
+				"subscription"
+			],
+			[
+				"su",
+				"subscription"
+			],
+			[
+				"Store",
+				"StoreRequest"
+			],
+			[
+				"las",
+				"lastSelectedDate"
+			],
+			[
+				"last",
+				"lastSelectedDate"
+			],
+			[
+				"remove",
+				"removeAllItem"
+			],
+			[
+				"day",
+				"dayname"
+			],
+			[
+				"get",
+				"getMonthName"
+			],
+			[
+				"sele",
+				"selectedMonth"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"form-",
+				"form-control"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"succ",
+				"success"
+			],
+			[
+				"arra",
+				"arrayResult"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"ses",
+				"session_url"
+			],
+			[
+				"auto",
+				"autofocus\tAttr"
+			],
+			[
+				"au",
+				"autofocus\tAttr"
+			],
+			[
+				"a",
+				"attendance"
+			],
+			[
+				"creat",
+				"created_by"
+			],
+			[
+				"it",
+				"itlog_id"
+			],
+			[
+				"aar",
+				"arrayRead"
+			],
+			[
+				"arr",
+				"arrayMake"
+			],
+			[
+				"m",
+				"modified_by"
+			],
+			[
+				"crea",
+				"created_by"
+			],
+			[
+				"upda",
+				"updateLogs"
+			],
+			[
+				"des",
+				"description2"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"desc",
+				"description"
+			],
+			[
+				"del",
+				"deleteAll"
+			],
+			[
+				"va",
+				"var_dump"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"max",
+				"maxlength\tAttr"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"reque",
+				"requestURL"
+			],
+			[
+				"reques",
+				"requestURL"
+			],
+			[
+				"is",
+				"isLoggedin"
+			],
+			[
+				"is_lo",
+				"is_logged_in"
+			],
+			[
+				"member",
+				"member_id"
+			],
+			[
+				"fon",
+				"font-size-adjust"
+			],
+			[
+				"text",
+				"text-center"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"flex",
+				"flex-center"
+			],
+			[
+				"ca",
+				"candidates"
+			],
+			[
+				"M",
+				"Matching"
+			],
+			[
+				"allo",
+				"allowAccess"
+			],
+			[
+				"crimin",
+				"criminal_id"
+			],
+			[
+				"Mode",
+				"Models"
+			],
+			[
+				"js",
+				"json_encode"
+			],
+			[
+				"char",
+				"characteristics"
+			],
+			[
+				"rec",
+				"records"
+			],
+			[
+				"crimi",
+				"criminal_id"
+			],
+			[
+				"api",
+				"api_key"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"crim",
+				"criminal"
+			],
+			[
+				"Crim",
+				"CriminalRecord"
+			],
+			[
+				"da",
+				"data"
+			],
+			[
+				"kai",
+				"kairos_id"
+			],
+			[
+				"btn",
+				"btnOnlineAll"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"flex-",
+				"flex-flow"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"dis",
+				"discount3d"
+			],
+			[
+				"game",
+				"game_setting"
+			],
+			[
+				"me",
+				"messages"
+			],
+			[
+				"mess",
+				"message"
+			],
+			[
+				"message",
+				"messageText"
+			],
+			[
+				"messa",
+				"messageText"
+			],
+			[
+				"se",
+				"sendMessage"
+			],
+			[
+				"Messge",
+				"messageText"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"be",
+				"belongs_to"
+			],
+			[
+				"in",
+				"inflect"
+			],
+			[
+				"pr",
+				"product_id"
+			],
+			[
+				"pro",
+				"product"
+			],
+			[
+				"set",
+				"set_product"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"role",
+				"role_id"
+			],
+			[
+				"movi",
+				"movies"
+			],
+			[
+				"nav",
+				"navbar-right"
+			],
+			[
+				"mo",
+				"movie"
+			],
+			[
+				"rev",
+				"reviews"
+			],
+			[
+				"par",
+				"params"
+			],
+			[
+				"attr",
+				"attributes"
+			],
+			[
+				"reci",
+				"recipe"
+			],
+			[
+				"recipe",
+				"recipe_params"
+			],
+			[
+				"cl",
+				"cla\tclass .. < ParentClass .. initialize .. end"
+			],
+			[
+				"ff",
+				"ff\tform_for"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"la",
+				"layouts"
+			],
+			[
+				"d",
+				"document"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/marknicdao/Projects/Laravel/wisadmin/routes/web.php",
+			"settings":
+			{
+				"buffer_size": 10040,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/marknicdao/Projects/Laravel/wisadmin/resources/views/grade_encode.blade.php",
+			"settings":
+			{
+				"buffer_size": 1147,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "grade_encode.blade.php"
+			}
+		},
+		{
+			"file": "GradeEncode.vue",
+			"settings":
+			{
+				"buffer_size": 108089,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/marknicdao/Projects/Laravel/wisadmin/resources/assets/js/app.js",
+			"settings":
+			{
+				"buffer_size": 1282,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/marknicdao/Projects/Laravel/wisadmin/app/Http/Controllers/Admin/EncodeGradeCrudController.php",
+			"settings":
+			{
+				"buffer_size": 2332,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/marknicdao/Projects/Laravel/wisadmin/resources/views/vendor/backpack/crud/grading/encode_grade.blade.php",
+			"settings":
+			{
+				"buffer_size": 4365,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/marknicdao/Projects/Laravel/wisadmin/routes/backpack/custom.php",
+			"settings":
+			{
+				"buffer_size": 1837,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 81.0,
+		"last_filter": "Satisfy Dependencies",
+		"selected_items":
+		[
+			[
+				"Satisfy Dependencies",
+				"Package Control: Satisfy Dependencies"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"theme",
+				"Activate Materialize Theme"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Theme",
+				"UI: Select Color Scheme"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"sf",
+				"SFTP: Browse Server…"
+			],
+			[
+				"sft",
+				"SFTP: Browse Server…"
+			]
+		],
+		"width": 496.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/marknicdao/Projects/Laravel/wisadmin"
+	],
+	"file_history":
+	[
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Models/TurnstileLog.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Models/Rfid.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/database/migrations/2018_12_26_183727_create_employee_attendaces_table.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Http/Controllers/Admin/DashboardController.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Models/Student.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Http/Controllers/Admin/StudentCrudController.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/resources/views/vendor/backpack/base/dashboard.blade.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Http/Controllers/Admin/EmployeeAttendanceCrudController.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/resources/views/vendor/backpack/base/inc/sidebar_content.blade.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/routes/backpack/custom.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Models/EmployeeAttendance.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Models/Period.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Http/Controllers/Admin/UserCrudController.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/User.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/database/migrations/2018_12_26_153502_add_employee_id_to_user.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Http/Controllers/Admin/TeacherAssignmentCrudController.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Models/TeacherAssignment.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Models/Employee.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Models/GradeTemplate.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Http/Controllers/Admin/TurnstileLogCrudController.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Http/Controllers/Admin/LockerInventoryCrudController.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Http/Controllers/Admin/RfidCrudController.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Http/Controllers/Admin/GradeTemplateCrudController.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/config/backpack/base.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Models/Department.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Http/Controllers/Admin/PeriodCrudController.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Http/Controllers/Admin/TurnstileCrudController.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/resources/views/vendor/backpack/base/inc/sidebar_user_panel.blade.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/database/migrations/2018_12_26_140507_create_grade_templates_table.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Http/Controllers/Admin/SetupGradeCrudController.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/database/migrations/2018_12_26_141821_create_periods_table.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/database/migrations/2018_12_26_142645_create_departments_table.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/routes/web.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/database/migrations/2018_12_26_040821_create_setup_grades_table.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Http/Requests/EmployeeRequest.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/database/migrations/2018_12_26_064033_change_employee_fields_nullable.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/database/migrations/2018_12_26_070203_create_teacher_assignments_table.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Models/SetupGrade.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/resources/views/vendor/backpack/crud/grading/list.blade.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/database/migrations/2018_12_26_062741_make_employee_fields_nullable.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/vendor/backpack/crud/src/resources/views/list.blade.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/resources/views/list.blade.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/resources/views/vendor/backpack/crud/reorder_grade.blade.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/node_modules/clean-css/lib/optimizer/level-2/reorderable.js",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/vendor/backpack/crud/src/resources/views/reorder.blade.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/resources/views/vendor/backpack/crud/fields/reorder_grade.blade.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/config/filesystems.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Http/Controllers/Admin/AssetInventoryCrudController.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Models/AssetInventory.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Http/Controllers/Admin/BuildingCrudController.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Http/Controllers/Admin/EmployeeCrudController.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Http/Controllers/Admin/EnrollmentCrudController.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Http/Controllers/Admin/FundCrudController.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Http/Controllers/Admin/InventoryTransactionCrudController.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Http/Controllers/Admin/ItemInventoryCrudController.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Http/Controllers/Admin/LevelCrudController.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Http/Controllers/Admin/PermissionCrudController.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Http/Controllers/Admin/RoleCrudController.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Http/Controllers/Admin/SchoolYearCrudController.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Http/Controllers/Admin/SectionManagementCrudController.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Http/Controllers/Admin/SmsLogCrudController.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Http/Controllers/Admin/YearManagementCrudController.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Http/Controllers/Admin/StudentSmsTaggingCrudController.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Http/Controllers/Admin/TuitionCrudController.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/database/migrations/2018_12_21_124511_create_turnstiles_table.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/public/vendor/adminlte/build/bootstrap-less/print.less",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Models/Room.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/config/backup.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Console/Kernel.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/.gitignore",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/storage/backups/http---localhost/2018-12-21-00-27-21.zip",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/config/app.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Events/DisplayLastLogin.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/error.txt",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/database/migrations/2018_11_28_161851_add_level_id_to_section_management.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/resources/views/vendor/backpack/crud/fields/searchStudent.blade.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/resources/views/vendor/backpack/crud/fields/studentAccount/search.blade.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/resources/views/custom/show_locker_inventory.blade.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/database/migrations/2018_06_28_005728_create_tuitions_table.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/resources/views/vendor/backpack/crud/fields/tuition/child_tuition_payment_type.blade.php",
+		"/Users/marknicdao/Projects/Laravel/spcfparking/resources/views/vendor/backpack/crud/fields/rfid.blade.php",
+		"/Users/marknicdao/Projects/Laravel/spcfparking/app/Models/Employee.php",
+		"/Users/marknicdao/Projects/Laravel/spcfparking/resources/views/vendor/backpack/base/inc/sidebar_content.blade.php",
+		"/Users/marknicdao/Projects/Laravel/spcfparking/database/migrations/2018_11_15_084315_create_employees_table.php",
+		"/Users/marknicdao/Projects/Laravel/spcfparking/app/Models/Gate.php",
+		"/Users/marknicdao/Projects/Laravel/spcfparking/config/app.php",
+		"/Users/marknicdao/Projects/Laravel/spcfparking/routes/backpack/custom.php",
+		"/Users/marknicdao/Projects/Laravel/spcfparking/database/migrations/2018_11_15_175226_create_parkings_table.php",
+		"/Users/marknicdao/Projects/Laravel/spcfparking/database/migrations/2018_11_15_175250_create_gates_table.php",
+		"/Users/marknicdao/Projects/Laravel/spcfparking/routes/web.php",
+		"/Users/marknicdao/Projects/Laravel/spcfparking/config/backpack/base.php",
+		"/Users/marknicdao/Projects/Laravel/spcfparking/public/vendor/backpack/ckeditor/config.js",
+		"/Users/marknicdao/Projects/Laravel/spcfparking/config/filesystems.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/database/migrations/2018_09_05_025845_create_rfids_table.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/resources/views/vendor/backpack/crud/buttons/qrcode.blade.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/node_modules/har-schema/lib/page.json",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/config/permission.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/database/migrations/2018_10_16_143203_create_locker_inventories_table.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/resources/views/vendor/backpack/crud/buttons/qr.blade.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/resources/views/vendor/backpack/crud/fields/check.blade.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Http/Controllers/Admin/StudentAccountCrudController.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/vendor/backpack/crud/src/resources/views/columns/check.blade.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Models/Building.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/resources/views/vendor/backpack/base/inc/sidebar.blade.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/database/migrations/2018_10_05_165932_add_page_to_permissions_table.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/resources/views/custom/show_inventory.blade.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/resources/views/vendor/backpack/crud/buttons/update_redis.blade.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/resources/assets/js/components/RFIDLogs.vue",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/resources/assets/js/app.js",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/.env",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Http/Requests/RfidRequest.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/resources/views/vendor/backpack/crud/fields/rfidconnect/search.blade.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/database/seeds/DatabaseSeeder.php",
+		"/Users/marknicdao/Documents/TNH Tools/TNH Tools/WISCP/captiveportal.php",
+		"/Users/marknicdao/Documents/TNH Tools/captiveportal.html",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/database/migrations/2018_05_02_081459_create_students_table.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/database/seeds/StudentsTableSeeder.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Http/Requests/StudentRequest.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/database/migrations/2018_09_20_180625_change_student_number.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/database/migrations/2018_08_01_031401_create_student_accounts_table.php",
+		"/Users/marknicdao/Projects/Laravel/wis-master/resources/views/partials/header.blade.php",
+		"/Users/marknicdao/Projects/Laravel/wis-master/resources/views/vendor/backpack/base/inc/sidebar_content.blade.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/config/broadcasting.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Providers/EventServiceProvider.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/database/migrations/2018_09_05_053936_create_turnstile_logs_table.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/app/Http/Controllers/Admin/SaleCrudController.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/resources/views/vendor/backpack/crud/fields/rfid.blade.php",
+		"/Users/marknicdao/Projects/Laravel/wisadmin/public/js/student-rfid.js"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"removeCol",
+			"addColu",
+			"human",
+			"employee/",
+			"emplo",
+			"emploee",
+			"Human",
+			"HR",
+			"backup",
+			"Mainten",
+			"Employee",
+			"',\n",
+			"emplo",
+			"doctrine/dbal",
+			"Subject",
+			"disclose",
+			"Permiss",
+			"redis",
+			"$this->crud->addColumn([\n            'name' => 'building_name',\n            'type' => 'text',\n            'label' => 'Building',\n\n        ]);",
+			"user",
+			"});\n",
+			"year-management"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/marknicdao/Projects/Laravel/wisadmin/routes/web.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10040,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7187,
+								7188
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2949.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/marknicdao/Projects/Laravel/wisadmin/resources/views/grade_encode.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1147,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								161,
+								161
+							]
+						],
+						"settings":
+						{
+							"auto_name": "grade_encode.blade.php",
+							"incomplete_sync": null,
+							"syntax": "Packages/Vuejs Complete Package/vue.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "GradeEncode.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 108089,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								251,
+								251
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Vuejs Complete Package/vue.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 114.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/marknicdao/Projects/Laravel/wisadmin/resources/assets/js/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1282,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								782,
+								782
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 14.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/marknicdao/Projects/Laravel/wisadmin/app/Http/Controllers/Admin/EncodeGradeCrudController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2332,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								942,
+								942
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 125.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/marknicdao/Projects/Laravel/wisadmin/resources/views/vendor/backpack/crud/grading/encode_grade.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4365,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3492,
+								3492
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1519.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/marknicdao/Projects/Laravel/wisadmin/routes/backpack/custom.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1837,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 64.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 46.0
+	},
+	"pinned_build_system": "",
+	"project": "SchoolMate.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"routes/web.php",
+				"routes/web.php"
+			],
+			[
+				"routes/backpack/custom.php",
+				"routes/backpack/custom.php"
+			],
+			[
+				"web",
+				"routes/web.php"
+			],
+			[
+				"StudentCr",
+				"app/Http/Controllers/Admin/StudentCrudController.php"
+			],
+			[
+				"Student",
+				"app/Models/Student.php"
+			],
+			[
+				"Dash",
+				"app/Http/Controllers/Admin/DashboardController.php"
+			],
+			[
+				"sideba",
+				"resources/views/vendor/backpack/base/inc/sidebar_content.blade.php"
+			],
+			[
+				"empl",
+				"app/Models/EmployeeAttendance.php"
+			],
+			[
+				"EMployeeA",
+				"app/Http/Controllers/Admin/EmployeeAttendanceCrudController.php"
+			],
+			[
+				"sidebac",
+				"resources/views/vendor/backpack/base/inc/sidebar_content.blade.php"
+			],
+			[
+				"rfid.",
+				"app/Models/Rfid.php"
+			],
+			[
+				"turnstile",
+				"app/Models/TurnstileLog.php"
+			],
+			[
+				"Dashboard",
+				"app/Http/Controllers/Admin/DashboardController.php"
+			],
+			[
+				"base",
+				"config/backpack/base.php"
+			],
+			[
+				"sideb",
+				"resources/views/vendor/backpack/base/inc/sidebar_content.blade.php"
+			],
+			[
+				"Locker",
+				"app/Http/Controllers/Admin/LockerInventoryCrudController.php"
+			],
+			[
+				"Turnst",
+				"app/Http/Controllers/Admin/TurnstileLogCrudController.php"
+			],
+			[
+				"Turnstile",
+				"app/Http/Controllers/Admin/TurnstileCrudController.php"
+			],
+			[
+				"StudentC",
+				"app/Http/Controllers/Admin/StudentCrudController.php"
+			],
+			[
+				"student",
+				"app/Models/Student.php"
+			],
+			[
+				"rfid",
+				"app/Http/Controllers/Admin/RfidCrudController.php"
+			],
+			[
+				"emplo",
+				"app/Models/Employee.php"
+			],
+			[
+				"GradeTem",
+				"app/Models/GradeTemplate.php"
+			],
+			[
+				"side",
+				"resources/views/vendor/backpack/base/inc/sidebar_content.blade.php"
+			],
+			[
+				"TeacherAc",
+				"app/Http/Controllers/Admin/TeacherAssignmentCrudController.php"
+			],
+			[
+				"Teach",
+				"app/Models/TeacherAssignment.php"
+			],
+			[
+				"Grade",
+				"app/Models/GradeTemplate.php"
+			],
+			[
+				"GradeTemp",
+				"app/Http/Controllers/Admin/GradeTemplateCrudController.php"
+			],
+			[
+				"grade tem",
+				"app/Models/GradeTemplate.php"
+			],
+			[
+				"PeriodC",
+				"app/Http/Controllers/Admin/PeriodCrudController.php"
+			],
+			[
+				"department",
+				"app/Models/Department.php"
+			],
+			[
+				"Period",
+				"app/Models/Period.php"
+			],
+			[
+				"SetupGrade",
+				"app/Http/Controllers/Admin/SetupGradeCrudController.php"
+			],
+			[
+				"sidebar_c",
+				"resources/views/vendor/backpack/base/inc/sidebar_content.blade.php"
+			],
+			[
+				"list.blade",
+				"vendor/backpack/crud/src/resources/views/list.blade.php"
+			],
+			[
+				"saveReorder",
+				"node_modules/clean-css/lib/optimizer/level-2/reorderable.js"
+			],
+			[
+				"reorder",
+				"vendor/backpack/crud/src/resources/views/reorder.blade.php"
+			],
+			[
+				"turnsti",
+				"app/Http/Controllers/Admin/TurnstileCrudController.php"
+			],
+			[
+				"Print",
+				"public/vendor/adminlte/build/bootstrap-less/print.less"
+			],
+			[
+				"",
+				"app/Http/Controllers/Admin/TurnstileCrudController.php"
+			],
+			[
+				"AssetIn",
+				"app/Models/AssetInventory.php"
+			],
+			[
+				"Asset",
+				"app/Http/Controllers/Admin/AssetInventoryCrudController.php"
+			],
+			[
+				"Kernel.php",
+				"app/Console/Kernel.php"
+			],
+			[
+				"files",
+				"config/filesystems.php"
+			],
+			[
+				"Kernel",
+				"app/Console/Kernel.php"
+			],
+			[
+				"file",
+				"config/filesystems.php"
+			],
+			[
+				"dashboar",
+				"app/Http/Controllers/Admin/DashboardController.php"
+			],
+			[
+				"dash",
+				"resources/views/vendor/backpack/base/dashboard.blade.php"
+			],
+			[
+				"Student.p",
+				"app/Models/Student.php"
+			],
+			[
+				"StudentSmsTaggingCrudController",
+				"app/Http/Controllers/Admin/StudentSmsTaggingCrudController.php"
+			],
+			[
+				"WEB",
+				"routes/web.php"
+			],
+			[
+				"search.blade.",
+				"resources/views/vendor/backpack/crud/fields/searchStudent.blade.php"
+			],
+			[
+				"search.blade",
+				"resources/views/vendor/backpack/crud/fields/studentAccount/search.blade.php"
+			],
+			[
+				"crud",
+				"config/backpack/crud.php"
+			],
+			[
+				"config/backpack/base.php",
+				"config/backpack/base.php"
+			],
+			[
+				"app/Http/Kernel.php",
+				"app/Http/Kernel.php"
+			],
+			[
+				"App\\Http\\Middleware\\TrustProxies",
+				"app/Http/Middleware/TrustProxies.php"
+			],
+			[
+				"enrollm",
+				"database/migrations/2018_11_15_160601_create_enrollments_table.php"
+			],
+			[
+				"tuition",
+				"database/migrations/2018_06_28_005728_create_tuitions_table.php"
+			],
+			[
+				"config",
+				"public/vendor/backpack/ckeditor/config.js"
+			],
+			[
+				"AppServiceProvider.php",
+				"app/Providers/AppServiceProvider.php"
+			],
+			[
+				"Turnstil",
+				"app/Models/TurnstileLog.php"
+			],
+			[
+				"RFid",
+				"app/Models/Rfid.php"
+			],
+			[
+				"RFIDC",
+				"app/Http/Controllers/Admin/RfidCrudController.php"
+			],
+			[
+				"Rfid",
+				"app/Http/Controllers/Admin/RfidCrudController.php"
+			],
+			[
+				"Pages",
+				"app/Http/Controllers/PagesController.php"
+			],
+			[
+				"rfidcr",
+				"app/Http/Controllers/Admin/RfidCrudController.php"
+			],
+			[
+				"page",
+				"node_modules/har-schema/lib/page.json"
+			],
+			[
+				"Permission",
+				"config/permission.php"
+			],
+			[
+				"check.blad",
+				"vendor/backpack/crud/src/resources/views/columns/check.blade.php"
+			],
+			[
+				"LockerInventoryCrudController",
+				"app/Http/Controllers/Admin/LockerInventoryCrudController.php"
+			],
+			[
+				"sidebar",
+				"resources/views/vendor/backpack/base/inc/sidebar.blade.php"
+			],
+			[
+				"AssetInventoryCrudController.php",
+				"app/Http/Controllers/Admin/AssetInventoryCrudController.php"
+			],
+			[
+				"RfidCrudController.php",
+				"app/Http/Controllers/Admin/RfidCrudController.php"
+			],
+			[
+				"StudentAccountCrudController.php",
+				"app/Http/Controllers/Admin/StudentAccountCrudController.php"
+			],
+			[
+				"qr.blade",
+				"resources/views/vendor/backpack/crud/buttons/qr.blade.php"
+			],
+			[
+				"Web",
+				"routes/web.php"
+			],
+			[
+				"academics.blade.php",
+				"resources/views/pages/academics.blade.php"
+			],
+			[
+				"pages",
+				"app/Http/Controllers/PagesController.php"
+			],
+			[
+				"we",
+				"routes/web.php"
+			],
+			[
+				"sidebard",
+				"resources/views/vendor/backpack/base/inc/sidebar.blade.php"
+			],
+			[
+				"RFID",
+				"resources/assets/js/components/RFIDLogs.vue"
+			],
+			[
+				"home",
+				"resources/views/home.blade.php"
+			],
+			[
+				"app",
+				"config/app.php"
+			],
+			[
+				"app.",
+				"config/app.php"
+			],
+			[
+				"wis",
+				"public/css/wis.css"
+			],
+			[
+				"main",
+				"public/css/main.css"
+			],
+			[
+				"vendor/composer/installed.json",
+				"vendor/composer/installed.json"
+			],
+			[
+				"vendor/composer/autoload_static.php",
+				"vendor/composer/autoload_static.php"
+			],
+			[
+				"LoginCo",
+				"vendor/backpack/base/src/app/Http/Controllers/Auth/LoginController.php"
+			],
+			[
+				"layout.blade",
+				"vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/views/layout.blade.php"
+			],
+			[
+				"autoload_static.php",
+				"vendor/composer/autoload_static.php"
+			],
+			[
+				"LoginCon",
+				"vendor/backpack/base/src/app/Http/Controllers/Auth/LoginController.php"
+			],
+			[
+				"LOginCo",
+				"app/Http/Controllers/Auth/LoginController.php"
+			],
+			[
+				"logincon",
+				"app/Http/Controllers/Auth/LoginController.php"
+			],
+			[
+				"loginc",
+				"vendor/backpack/base/src/app/Http/Controllers/Auth/LoginController.php"
+			],
+			[
+				"EventSe",
+				"app/Providers/EventServiceProvider.php"
+			],
+			[
+				"select_",
+				"vendor/backpack/crud/src/resources/views/fields/select_from_array.blade.php"
+			],
+			[
+				"table.bla",
+				"vendor/backpack/crud/src/resources/views/fields/table.blade.php"
+			],
+			[
+				"text.ba",
+				"vendor/backpack/crud/src/resources/views/fields/text.blade.php"
+			],
+			[
+				"text.bla",
+				"vendor/backpack/crud/src/resources/views/columns/text.blade.php"
+			],
+			[
+				"create.b",
+				"resources/views/crud/create.blade.php"
+			],
+			[
+				"paypal",
+				"vendor/srmklive/paypal/src/Facades/PayPal.php"
+			],
+			[
+				"modals/load.blade.php",
+				"resources/views/jobs/modals/load.blade.php"
+			],
+			[
+				"candidates/information.blade.php",
+				"resources/views/candidates/information.blade.php"
+			],
+			[
+				"candidates/index.blade.php",
+				"resources/views/candidates/index.blade.php"
+			],
+			[
+				"admin/dashboard.blade.php",
+				"resources/views/admin/dashboard.blade.php"
+			],
+			[
+				"jobscontroller",
+				"app/Http/Controllers/JobsController.php"
+			],
+			[
+				"applicants.blade.php",
+				"resources/views/jobs/applicants.blade.php"
+			],
+			[
+				"jobs/applicants.blade.php",
+				"resources/views/jobs/applicants.blade.php"
+			],
+			[
+				"skills/ratings.blade.php",
+				"resources/views/skills/ratings.blade.php"
+			],
+			[
+				"job-board/show.blade.php",
+				"resources/views/job-board/show.blade.php"
+			],
+			[
+				"edit",
+				"resources/views/jobseekers/edit.blade.php"
+			],
+			[
+				"edit.",
+				"resources/views/companies/edit.blade.php"
+			],
+			[
+				"skill-set",
+				"resources/views/skills/forms/skill-set.blade.php"
+			],
+			[
+				"sho",
+				"resources/views/jobseekers/show.blade.php"
+			],
+			[
+				"kernel",
+				"app/Http/Kernel.php"
+			],
+			[
+				"mail",
+				"config/mail.php"
+			],
+			[
+				"register",
+				"vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php"
+			],
+			[
+				"site.",
+				"public/css/site.css"
+			],
+			[
+				"date.p",
+				"vendor/jenssegers/date/src/Date.php"
+			],
+			[
+				"show",
+				"app/Events/ShowStudent.php"
+			],
+			[
+				"webcam",
+				"public/js/webcam.js"
+			],
+			[
+				"welcom",
+				"resources/views/welcome.blade.php"
+			],
+			[
+				"seeder",
+				"vendor/backpack/settings/src/database/seeds/SettingsTableSeeder.php"
+			],
+			[
+				"settings",
+				"vendor/backpack/settings/src/app/Http/Requests/SettingRequest.php"
+			],
+			[
+				"settingseed",
+				"vendor/backpack/settings/src/database/seeds/SettingsTableSeeder.php"
+			],
+			[
+				"settingsee",
+				"vendor/backpack/settings/src/database/seeds/SettingsTableSeeder.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 286.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

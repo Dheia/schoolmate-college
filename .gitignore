@@ -1,0 +1,36 @@
+/node_modules
+/public/hot
+/public/storage
+public/json_data
+/storage/*.key
+/storage/backups
+/storage/uploads
+/storage/debugbar
+/vendor
+/.idea
+/.vscode
+/.vagrant
+Homestead.json
+Homestead.yaml
+npm-debug.log
+package-lock.json
+yarn-error.log
+
+.env
+.env.save
+.env.save.1
+# .env.local
+# .env.production
+# .env.demo
+# .env.gis
+# .env.mdsi
+# .env.mcsi
+
+.well-known/
+/.phpintel
+laravel-echo-server.json
+/.well-known/*
+.env.save.1
+/public/uploads/*
+public/.DS_Store
+/storage/public/*

@@ -1,0 +1,1 @@
+<a href="{{ url($crud->route . '/' . $entry->id . '/clone' ) }}" class="btn btn-xs btn-default action-btn" data-button-type="clone" title="Clone"><i class="fa fa-clone"></i></a>

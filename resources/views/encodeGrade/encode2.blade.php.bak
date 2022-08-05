@@ -1,0 +1,372 @@
+<?php 
+  header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
+  header("Cache-Control: post-check=0, pre-check=0", false);
+  header("Pragma: no-cache");
+  $template = App\Models\GradeTemplate::where('id', app('request')->input('template_id'))->first();
+  $subject  = App\Models\SubjectManagement::where('id', app('request')->input('subject_id'))->first();
+  $section  = App\Models\SectionManagement::where('id', app('request')->input('section_id'))->first();
+?>
+
+
+@extends('backpack::layout')
+@section('header')
+{{-- {{ dd(get_defined_vars()) }} --}}
+        <section class="content-header">
+          <h1>
+        <span class="text-capitalize">Encode</span>
+        {{-- <small>{{ trans('backpack::crud.add').' '.$crud->entity_name }}.</small> --}}
+          </h1>
+          <ol class="breadcrumb">
+            <li><a href="" class="text-capitalize">Encode Grade</a></li>
+            <li class="active">encode</li>
+          </ol>
+        </section>
+@endsection
+
+@section('content')
+
+
+<div id="app">
+      
+      <div class="row m-b-10">
+        <div class="col-md-12">
+          
+          <a href="/admin/encode-grade" class="hidden-print"><i class="fa fa-angle-double-left"></i> Back to all <span>Encode Grades</span></a><br><br>
+
+        
+        </div> 
+      </div>
+      <table class="table table-bordered table-striped m-b-0" style="box-shadow: 1px -2px 21px #CCC;">
+        <tbody>
+          <tr>
+            <td style="width: calc(100% / 4)">
+              <b>Template Name:</b>
+              <span>&nbsp; {{ $template->name ?? '-' }}</span> 
+            </td>            
+            <td style="width: calc(100% / 4)">
+              <b>Subject:</b>
+              <span>&nbsp; {{ $subject->subject_code ?? '-' }}</span>
+            </td>            
+            <td style="width: calc(100% / 4)">
+              <b>Section:</b>
+              <span>&nbsp; {{ $section->name ?? '-' }}</span>
+            </td>     
+            <td style="width: calc(100% / 4)">
+              <b>Term:</b>
+              <span>&nbsp; {{ request()->term_type ?? '-' }}</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      
+      {{-- ENCODE GRADE TABLE --}}
+
+      <div class="box">
+          <div id='jqxTabs'>
+              <ul style='margin-left: 20px;'>
+                  <li>Class Roster</li>
+                  @foreach($periods as $period)
+                    <div><li class="text-capitalize">{{ $period->name }}</li></div>
+                  @endforeach
+                  <li>Submitted Grades</li>
+              </ul>
+              <div>
+                  <div id="classRoster"></div>
+              </div>
+              
+              @foreach($periods as $key => $period)
+              <div>
+                <div id="{{$period->name . '-' . $key}}"></div>
+              </div>
+              @endforeach
+              <div>Submitted Grades</div>
+          </div>
+
+      </div>
+        
+</div>
+
+
+@endsection
+
+
+@section('after_styles')
+        <link rel="stylesheet" type="text/css" href="../../jqwidgets/styles/jqx.base.css" />
+        <link rel="stylesheet" href="{{ asset('css/jquery-confirm.css') }}">
+
+        <link rel="stylesheet" href="{{ asset('jqwidgets/styles/jqx.base.css') }}" type="text/css" />
+        <link rel="stylesheet" href="{{ asset('jqwidgets/styles/jqx.energyblue.css') }}" type="text/css" />
+@endsection
+
+@section('after_scripts') 
+ 
+
+        <script src="{{ \Request::getSchemeAndHttpHost() }}/js/app.js"></script>
+        <script src="{{ asset('js/jquery.min.js') }}"></script>
+        <script src="{{ asset('js/bootstrap4.min.js') }}"></script>
+        <script src="{{ asset('js/jquery-confirm.js') }}"></script>
+
+        {{-- JQ TABLE --}}
+        {{-- <script src="{{ asset('jqwidgets/jqx-all.js') }}"></script> --}}
+        <script type="text/javascript" src="{{ asset('jqwidgets/jqxcore.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('jqwidgets/jqxdata.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('jqwidgets/jqxbuttons.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('jqwidgets/jqxscrollbar.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('jqwidgets/jqxlistbox.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('jqwidgets/jqxdropdownlist.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('jqwidgets/jqxdatatable.js') }}"></script>
+
+        {{-- JQ TABS --}}
+        <script type="text/javascript" src="{{ asset('jqwidgets/jqxtabs.js') }}"></script> --}}
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.min.js"></script>
+        {{-- JQ SCRIPT TABS --}}
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('#jqxTabs').jqxTabs({ width: $('.box').width(), height: 'auto' });
+            });
+        </script>
+        
+        {{-- CLASS ROSTER --}}
+        <script>
+          var source = {
+              localData: {!! json_encode($studentRosters) !!},
+              dataType: "json",
+              dataFields:
+              [
+                  { name: 'lrn', type: 'string',},
+                  { name: 'studentnumber', type: 'number' },
+                  { name: 'fullname', type: 'string' },
+                  { name: 'gender', type: 'string' },
+              ],
+              editable: true,
+          };
+          var dataAdapter = new $.jqx.dataAdapter(source);
+
+          $("#classRoster").jqxDataTable(
+          {
+              source: dataAdapter,
+              sortable: true,
+              columnsResize: true,
+              theme: 'energyblue',
+              width: $('.box').width(),
+              columns: [
+                  { text: 'LRN', dataField: 'lrn', width: $('.box').width() / 4, editable: true},
+                  { text: 'Student Number', dataField: 'studentnumber', width: $('.box').width() / 4 },
+                  { text: 'Learners Name', dataField: 'fullname', width: $('.box').width() / 4 },
+                  { text: 'Gender', dataField: 'gender', width: $('.box').width() / 4, align: 'right', cellsAlign: 'right', cellsFormat: 'c2' },
+              ]
+          });
+        </script>
+
+
+        @foreach($periods as $key => $period)
+          <script>
+          $(document).ready( function () {
+          // (function () {
+            function getUrlVars() {
+                var vars = {};
+                var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+                    vars[key] = value;
+                });
+                return vars;
+            }
+            var allParameters = '?template_id=' + getUrlVars().template_id + '&subject_id=' + getUrlVars().subject_id + '&section_id=' + getUrlVars().section_id + '&term_type=' + getUrlVars().term_type;
+            function hasExistingRecord(period_id) {
+              var result = null;
+              var url = "/admin/encode-grade/encode/is-data-exist"  + allParameters + '&period_id=' + period_id;
+               $.ajax({
+                  url: url,
+                  type: 'get',
+                  dataType: 'json',
+                  async: false,
+                  success: function(data) {
+                      result = data;
+                  } 
+               });
+               return result;
+            }
+
+            function getTopColumnHeaders(period_id) {
+                let data;
+                let columnheader = new Array();
+                  
+                $.get( "/admin/api/setup-grade/topcolumnheader" + allParameters + '&period_id=' + period_id, function( data ) {
+                    $.each(data[0].columns, function (index, value){
+                        columnheader.push(value);
+                    });
+                });
+                return columnheader;
+            }
+
+            function getSubColumnHeader(period_id) {
+              let data;
+              let subcolumnheader = [];
+              
+              var tmpVar = [];
+              var isEditable = false;
+              $.get( "/admin/api/setup-grade/subcolumnheader" + allParameters + '&period_id=' + period_id, function( data ) {
+
+                      if(data.length < 1) { return; }
+                      var counterForEditable    = 1;                    
+                      var counterForNonEditable = 1;
+                      isEditable = data[0].submitted;
+                      for(var i = 1; i <= data[0].counter - 1; i++) {
+                          let data = [];
+                          tmpVar.push(data);
+                      }
+                      $.each(data[0].columns, function (index, value) {
+                          let hasAggregates = _.has(value, 'aggregates');
+                          if(hasAggregates) {
+                              value.aggregates = [{
+                                  '':
+                                      (aggregatedValue, currentValue, column, record) => {
+                                          if(typeof value.max === "number") {
+                                              return value.max
+                                          }
+                                          return '';
+                                      }
+                              }];
+                          }
+                          if(value.itemEditableCell) {
+                              value.validation = function (cell, val) {
+                                  if (val < 0 || val > value.max) {
+                                      return { result: false, message: "[0 - " + value.max + "]" };
+                                  }
+                                  return true;
+                              };
+                              
+                              tmpVar[value.order - 1].push(value.datafield);
+                          }
+                          if(value.editable == false) { 
+                          
+                              $.each(tmpVar, function (key, val)  {
+                                  //  TOTAL
+                                  if(value.datafield.indexOf('total-') !== -1 && (value.totalOrder - 1) === key) {
+                                      value.cellsrenderer = function (row, column, val, rowdata) {
+                                          var total = 0;
+                                          for(var i = 0; i <= tmpVar[key].length; i++) {
+                                              total += parseFloat(rowdata[tmpVar[key][i]]) || 0;
+                                          }
+                                          rowdata['total_' + key] = total; 
+                                          return "<div style='margin: 4px;' class='jqx-center-align'>" + total.toFixed(2)  + "</div>";
+                                          // return "<div style='margin: 4px;' class='jqx-center-align'>" + key  + "</div>";
+                                      };
+                                  }
+                                  //  PS
+                                  if(value.datafield.indexOf('ps-') !== -1 && (value.psOrder - 1) === key) {
+                                      value.cellsrenderer = function (row, column, val, rowdata) {
+                                          var total = 0;
+                                          for(var i = 0; i < data[0].counter; i++) {
+                                              total = (parseFloat(rowdata['total_' + parseInt(value.psOrder - 1)]) / parseFloat(value['hps-' + value.psOrder])) * 100 || 0;
+                                          }
+                                          rowdata['ps_' + key] = total;
+                                          return "<div style='margin: 4px;' class='jqx-center-align'>" + total.toFixed(2)  + "</div>";
+                                      };
+                                  }
+                                  //  WS
+                                  if(value.datafield.indexOf('ws-') !== -1 && (value.wsOrder - 1) === key) {
+                                      value.cellsrenderer = function (row, column, val, rowdata) {
+                                          var total = 0,
+                                                hps = parseInt(data[0].hps_ws[value.wsOrder - 1].max),
+                                                 ps = rowdata['ps_' + parseInt(value.wsOrder - 1)],
+                                              total = (ps / 100 * 1) * hps;
+                                          
+                                          rowdata['ws_' + key] = total;
+                                          return "<div style='margin: 4px;' class='jqx-center-align'>" + total.toFixed(2)  + "</div>";
+                                      };
+                                  }
+                                  //  INITIAL GRADE
+                                  if(value.datafield.indexOf('initial-grade') !== -1) {
+                                      value.cellsrenderer = function (row, column, val, rowdata) {
+                                          var total = 0;
+                                          var failedColor = '';
+                                          for(var i = 0; i < data[0].counter; i++) {
+                                              total += parseFloat(rowdata['ws_' + i]) || 0;
+                                          }
+                                          if(total < 75) { failedColor = 'color: red;'; }
+                                          rowdata['initial_grade'] = parseFloat(total.toFixed(2));
+                                          return "<div style='margin: 4px;" + failedColor + "' class='jqx-right-align'>" + total.toFixed(2)  + "</div>";
+                                      };
+                                  }
+                                  //  QUARTERLY GRADE / (TRANSMUTED GRADE)
+                                  if(value.datafield.indexOf('quarterly-grade') !== -1) {
+                                      value.cellsrenderer = function (row, column, val, rowdata) {
+                                          var transmuted_grade = '-';
+                                          var failedColor = '';
+                                          $.each(self.transmutationTable, function (key, val) {
+                                              if(parseFloat(val.min) <= rowdata['initial_grade'] && rowdata['initial_grade'] >= parseFloat(val.max)) {
+                                                  rowdata['quarterly_grade'] = val.transmuted_grade;
+                                                  transmuted_grade = val.transmuted_grade;
+                                                  return false;
+                                              }
+                                          });
+                                          if(transmuted_grade < 75) { failedColor = 'color: red;'; }
+                                          return "<div style='margin: 4px;" + failedColor + "' class='jqx-right-align'>" + transmuted_grade  + "</div>";
+                                      };
+                                  }
+                              });
+                          }
+                   
+                          subcolumnheader.push(value);
+                      });
+                    
+                });
+              
+              return {
+                cells: subcolumnheader,
+                editable: isEditable
+              }
+            }
+
+            var url = '';
+            var isExisting = hasExistingRecord({{ $period->id }});
+            if(isExisting.message) {
+                url = 'encode/load-data' + allParameters + '&period_id=' + {{ $period->id }};
+            } else {
+                url  = '/admin/api/setup-grade/studentdata' + allParameters + '&period_id=' + {{ $period->id }};
+            }
+            var source = {
+                datatype: 'json',
+                url: url,
+                id: "GradeID",
+                root: "Grades",
+                cache: false,
+            };
+          
+            // Top Column Header
+            var topColumnHeader = getTopColumnHeaders({{ $period->id }});
+
+            // Sub Column Header
+            var subcolumnheader = getSubColumnHeader({{ $period->id }});
+           
+            var dataAdapter = new $.jqx.dataAdapter(source);
+            $(document).ajaxComplete(function() {
+              // console.log(subcolumnheader.editable);
+
+              $("#{{$period->name . '-' . $key}}").jqxDataTable({
+                  source: dataAdapter,
+                  sortable: true,
+                  editable: true,
+                  filterMode: 'advanced',
+                  pageable: true,
+                  pagerMode: 'advanced',
+                  pagerButtonsCount: 10,
+                  showAggregates: true,
+                  columnsResize: true,
+                  theme: 'energyblue',
+                  showToolbar: true,
+                  showHeader: true,
+                  height: 400,
+                  width: $('.box').width(),
+                  columnGroups: topColumnHeader,
+                  columns: subcolumnheader.cells,
+              });
+            })
+            $("#{{$period->name . '-' . $key}}").jqxDataTable('render');
+
+          // })();
+        });
+          </script>
+
+        @endforeach
+@endsection

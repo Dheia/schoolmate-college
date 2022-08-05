@@ -1,0 +1,1 @@
+<li><a href="online-class-topic?teacher_id={{ request()->teacher_id }}&class_code={{ $entry->code }}" id="addLeave{{ $entry->id }}" class="text-sm"><i class="fa fa-plus"></i>Add Topics</a></li>

@@ -1,0 +1,58 @@
+<tbody>
+    <tr>
+        <td>Tuition Fees</td>
+        @foreach($tuitions as $key => $fee)
+            @if( ($key+1) == $fee->payment_type )
+                <td>{{ number_format($fee->tuition_fees, 2, ".", ", ") }}</td>
+            @endif
+        @endforeach
+    </tr>
+
+    <tr>
+        <td>Less : Early Bird Discount</td>
+        @foreach($tuitions as $key => $fee)
+            @if( ($key+1) == $fee->payment_type )
+                <td>{{ number_format($fee->discount, 2, ".", ", ") }}</td>
+            @endif
+        @endforeach
+    </tr>
+
+    <tr style="border-top: 2px solid #42286C; border-bottom: 2px solid #42286C;">
+        <td><b>Total Payable Upon Enrollment</b></td>
+        @foreach($tuitions as $key => $fee)
+            @if( ($key+1) == $fee->payment_type )
+                <td><b>{{ number_format($fee->tuition_fees - $fee->discount, 2, ".", ", ") }}</b></td>
+            @endif
+        @endforeach
+    </tr>
+    @foreach($miscellaneous as $misc)
+        <tr>
+            <td>{{ $misc->code }}</td>
+            <td>{{ number_format($misc->amount, 2, ".", ", ") }}</td>
+            <td>{{ number_format($misc->amount, 2, ".", ", ") }}</td>
+            <td>{{ number_format($misc->amount, 2, ".", ", ") }}</td>
+            <td>{{ number_format($misc->amount, 2, ".", ", ") }}</td>
+        </tr>
+    @endforeach
+    
+    <tr style="border-top: 2px solid #42286C;">
+        <td><b>Total Mandatory Fees Upon Enrollment</b></td>
+    
+        @php 
+            $misc_inc = 0; 
+        @endphp
+        @foreach($miscellaneous as $misc)
+            {{ $misc_inc += $misc->amount }}
+        @endforeach
+        {{-- 
+        <td>
+            {{ $misc_inc }}
+        </td> --}}
+
+        @foreach($tuitions as $key => $fee)
+            @if( ($key+1) == $fee->payment_type )
+                <td><b>{{ number_format( ($fee->tuition_fees - $fee->discount) + $misc_inc, 2, ".", ", ") }}</b></td>
+            @endif
+        @endforeach
+    </tr>
+</tbody>

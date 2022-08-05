@@ -1,0 +1,11 @@
+{
+  "apps": [
+    {
+      "name": "echo.wisadmin",
+      "script": "laravel-echo-server",
+      "args" : "start",
+      "autorestart": true,
+      "restart_delay": 1000
+    }
+  ]
+}

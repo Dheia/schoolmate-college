@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<guardProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" appName="test" appVersion="tesat" targetDir="C:\Users\tigernethost\Documents" xsi:noNamespaceSchemaLocation="guard.xsd">
+	
+	<options>
+		<phpVersion value="5.6"/>
+
+		<phpFilesExtensions>
+			<extension>php</extension>
+			<extension>inc</extension>
+			<extension>phtml</extension>
+		</phpFilesExtensions>
+
+		<supportShortTags value="true"/>
+		<supportASPTags value="false"/>
+		<workWithEncodedFilesOnly value="true"/>
+		
+		<expiration>
+			<none/>
+		</expiration>
+
+		<licenseType value="none"/>
+		<privateKey>
+			<keyData/>
+		</privateKey>
+
+		<headerInformation>
+			<default/>
+		</headerInformation>
+
+		<ignoreErrors value="true"/>
+		<verbosityLevel value="verbose"/>
+		<allowEncodedFileModification value="true"/>
+		<resolveSymlinks value="true"/>
+		
+		<securityMethodList>
+			<securityMethod name="encodePhpFiles" value="true"/>
+			<securityMethod name="removeLineNumbers" value="false"/>
+			<securityMethod name="removePhpDoc" value="true"/>
+			<securityMethod name="obfuscateVariables" value="true"/>
+			<securityMethod name="obfuscateFunctions" value="true"/>
+			<securityMethod name="obfuscateClasses" value="true"/>
+			<securityMethod name="obfuscatePhpEntities" value="true"/>
+		</securityMethodList>
+
+		<ignorePatterns>
+			<pattern>CVS</pattern>
+			<pattern>.svn</pattern>
+			<pattern>.git</pattern>
+			<pattern>.#*</pattern>
+			<pattern>.cvsignore</pattern>
+			<pattern>.gitignore</pattern>
+		</ignorePatterns>
+	</options>
+
+	<!-- Source entries: -->
+	<source path="D:\Project Files\laravel\wisadmin">
+		<options/>
+	</source>
+</guardProject>

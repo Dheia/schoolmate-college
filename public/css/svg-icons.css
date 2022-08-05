@@ -1,0 +1,337 @@
+
+
+
+.oc-icon {
+  width: 50px;
+  height: 50px;
+  /*background-size: 50px 50px;*/
+  background-position: center;
+
+  display: inline-block;
+  background-repeat: no-repeat;
+   }
+
+
+.oc-icon-adjustments {
+	background-image: url('/svgs/icons/adjustments.svg');
+}
+.oc-icon-alarmclock {
+	background-image: url('/svgs/icons/alarmclock.svg');
+}
+.oc-icon-anchor {
+	background-image: url('/svgs/icons/anchor.svg');
+}
+.oc-icon-aperture {
+	background-image: url('/svgs/icons/aperture.svg');
+}
+.oc-icon-attachments {
+	background-image: url('/svgs/icons/attachments.svg');
+}
+.oc-icon-bargraph {
+	background-image: url('/svgs/icons/bargraph.svg');
+}
+.oc-icon-basket {
+	background-image: url('/svgs/icons/basket.svg');
+}
+.oc-icon-beaker {
+	background-image: url('/svgs/icons/beaker.svg');
+}
+.oc-icon-bike {
+	background-image: url('/svgs/icons/bike.svg');
+}
+.oc-icon-book-open {
+	background-image: url('/svgs/icons/book-open.svg');
+}
+.oc-icon-briefcase {
+	background-image: url('/svgs/icons/briefcase.svg');
+}
+.oc-icon-browser {
+	background-image: url('/svgs/icons/browser.svg');
+}
+.oc-icon-calendar {
+	background-image: url('/svgs/icons/calendar.svg');
+}
+.oc-icon-camera {
+	background-image: url('/svgs/icons/camera.svg');
+}
+.oc-icon-caution {
+	background-image: url('/svgs/icons/caution.svg');
+}
+.oc-icon-chat {
+	background-image: url('/svgs/icons/chat.svg');
+}
+.oc-icon-circle-compass {
+	background-image: url('/svgs/icons/circle-compass.svg');
+}
+.oc-icon-clipboard {
+	background-image: url('/svgs/icons/clipboard.svg');
+}
+.oc-icon-clock {
+	background-image: url('/svgs/icons/clock.svg');
+}
+.oc-icon-cloud {
+	background-image: url('/svgs/icons/cloud.svg');
+}
+.oc-icon-compass {
+	background-image: url('/svgs/icons/compass.svg');
+}
+.oc-icon-desktop {
+	background-image: url('/svgs/icons/desktop.svg');
+}
+.oc-icon-dial {
+	background-image: url('/svgs/icons/dial.svg');
+}
+.oc-icon-document {
+	background-image: url('/svgs/icons/document.svg');
+}
+.oc-icon-documents {
+	background-image: url('/svgs/icons/documents.svg');
+}
+.oc-icon-download {
+	background-image: url('/svgs/icons/download.svg');
+}
+.oc-icon-dribbble {
+	background-image: url('/svgs/icons/dribbble.svg');
+}
+.oc-icon-edit {
+	background-image: url('/svgs/icons/edit.svg');
+}
+.oc-icon-envelope {
+	background-image: url('/svgs/icons/envelope.svg');
+}
+.oc-icon-expand {
+	background-image: url('/svgs/icons/expand.svg');
+}
+.oc-icon-facebook {
+	background-image: url('/svgs/icons/facebook.svg');
+}
+.oc-icon-flag {
+	background-image: url('/svgs/icons/flag.svg');
+}
+.oc-icon-focus {
+	background-image: url('/svgs/icons/focus.svg');
+}
+.oc-icon-gears {
+	background-image: url('/svgs/icons/gears.svg');
+}
+.oc-icon-genius {
+	background-image: url('/svgs/icons/genius.svg');
+}
+.oc-icon-gift {
+	background-image: url('/svgs/icons/gift.svg');
+}
+.oc-icon-global {
+	background-image: url('/svgs/icons/global.svg');
+}
+.oc-icon-globe {
+	background-image: url('/svgs/icons/globe.svg');
+}
+.oc-icon-googleplus {
+	background-image: url('/svgs/icons/googleplus.svg');
+}
+.oc-icon-grid {
+	background-image: url('/svgs/icons/grid.svg');
+}
+.oc-icon-happy {
+	background-image: url('/svgs/icons/happy.svg');
+}
+.oc-icon-hazardous {
+	background-image: url('/svgs/icons/hazardous.svg');
+}
+.oc-icon-heart {
+	background-image: url('/svgs/icons/heart.svg');
+}
+.oc-icon-hotairballoon {
+	background-image: url('/svgs/icons/hotairballoon.svg');
+}
+.oc-icon-hourglass {
+	background-image: url('/svgs/icons/hourglass.svg');
+}
+.oc-icon-key {
+	background-image: url('/svgs/icons/key.svg');
+}
+.oc-icon-laptop {
+	background-image: url('/svgs/icons/laptop.svg');
+}
+.oc-icon-layers {
+	background-image: url('/svgs/icons/layers.svg');
+}
+.oc-icon-lifesaver {
+	background-image: url('/svgs/icons/lifesaver.svg');
+}
+.oc-icon-lightbulb {
+	background-image: url('/svgs/icons/lightbulb.svg');
+}
+.oc-icon-linegraph {
+	background-image: url('/svgs/icons/linegraph.svg');
+}
+.oc-icon-linkedin {
+	background-image: url('/svgs/icons/linkedin.svg');
+}
+.oc-icon-lock {
+	background-image: url('/svgs/icons/lock.svg');
+}
+.oc-icon-magnifying-glass {
+	background-image: url('/svgs/icons/magnifying-glass.svg');
+}
+.oc-icon-map {
+	background-image: url('/svgs/icons/map.svg');
+}
+.oc-icon-map-pin {
+	background-image: url('/svgs/icons/map-pin.svg');
+}
+.oc-icon-megaphone {
+	background-image: url('/svgs/icons/megaphone.svg');
+}
+.oc-icon-mic {
+	background-image: url('/svgs/icons/mic.svg');
+}
+.oc-icon-mobile {
+	background-image: url('/svgs/icons/mobile.svg');
+}
+.oc-icon-newspaper {
+	background-image: url('/svgs/icons/newspaper.svg');
+}
+.oc-icon-notebook {
+	background-image: url('/svgs/icons/notebook.svg');
+}
+.oc-icon-paintbrush {
+	background-image: url('/svgs/icons/paintbrush.svg');
+}
+.oc-icon-paperclip {
+	background-image: url('/svgs/icons/paperclip.svg');
+}
+.oc-icon-pencil {
+	background-image: url('/svgs/icons/pencil.svg');
+}
+.oc-icon-phone {
+	background-image: url('/svgs/icons/phone.svg');
+}
+.oc-icon-picture {
+	background-image: url('/svgs/icons/picture.svg');
+}
+.oc-icon-pictures {
+	background-image: url('/svgs/icons/pictures.svg');
+}
+.oc-icon-piechart {
+	background-image: url('/svgs/icons/piechart.svg');
+}
+.oc-icon-presentation {
+	background-image: url('/svgs/icons/presentation.svg');
+}
+.oc-icon-pricetags {
+	background-image: url('/svgs/icons/pricetags.svg');
+}
+.oc-icon-printer {
+	background-image: url('/svgs/icons/printer.svg');
+}
+.oc-icon-profile-female {
+	background-image: url('/svgs/icons/profile-female.svg');
+}
+.oc-icon-profile-male {
+	background-image: url('/svgs/icons/profile-male.svg');
+}
+.oc-icon-puzzle{
+	background-image: url('/svgs/icons/puzzle.svg');
+}
+.oc-icon-quote {
+	background-image: url('/svgs/icons/quote.svg');
+}
+.oc-icon-recycle {
+	background-image: url('/svgs/icons/recycle.svg');
+}
+.oc-icon-refresh {
+	background-image: url('/svgs/icons/refresh.svg');
+}
+.oc-icon-ribbon {
+	background-image: url('/svgs/icons/ribbon.svg');
+}
+.oc-icon-rss {
+	background-image: url('/svgs/icons/rss.svg');
+}
+.oc-icon-sad {
+	background-image: url('/svgs/icons/sad.svg');
+}
+.oc-icon-scissors {
+	background-image: url('/svgs/icons/scissors.svg');
+}
+.oc-icon-scope {
+	background-image: url('/svgs/icons/scope.svg');
+}
+.oc-icon-search {
+	background-image: url('/svgs/icons/search.svg');
+}
+.oc-icon-shield {
+	background-image: url('/svgs/icons/shield.svg');
+}
+.oc-icon-speedometer {
+	background-image: url('/svgs/icons/speedometer.svg');
+}
+.oc-icon-strategy {
+	background-image: url('/svgs/icons/strategy.svg');
+}
+.oc-icon-streetsign {
+	background-image: url('/svgs/icons/streetsign.svg');
+}
+.oc-icon-tablet {
+	background-image: url('/svgs/icons/tablet.svg');
+}
+.oc-icon-telescope {
+	background-image: url('/svgs/icons/telescope.svg');
+}
+.oc-icon-toolbox {
+	background-image: url('/svgs/icons/toolbox.svg');
+}
+.oc-icon-tools {
+	background-image: url('/svgs/icons/tools.svg');
+}
+.oc-icon-tools-2 {
+	background-image: url('/svgs/icons/tools-2.svg');
+}
+.oc-icon-traget {
+	background-image: url('/svgs/icons/traget.svg');
+}
+.oc-icon-trophy {
+	background-image: url('/svgs/icons/trophy.svg');
+}
+.oc-icon-tumblr {
+	background-image: url('/svgs/icons/tumblr.svg');
+}
+.oc-icon-twitter {
+	background-image: url('/svgs/icons/twitter.svg');
+}
+.oc-icon-upload {
+	background-image: url('/svgs/icons/upload.svg');
+}
+.oc-icon-video {
+	background-image: url('/svgs/icons/video.svg');
+}
+.oc-icon-wallet {
+	background-image: url('/svgs/icons/wallet.svg');
+}
+.oc-icon-wine {
+	background-image: url('/svgs/icons/wine.svg');
+}
+
+
+
+
+
+
+
+.oc-icon-2x{
+  width: 60px;
+  height: 60px;
+  background-size: 60px;
+}
+
+.oc-icon-5x{
+  width: 100px;
+  height: 100px;
+  background-size: 100px;
+}
+
+.icon-blue{
+	fill: #3c8dbc !important;
+}
+

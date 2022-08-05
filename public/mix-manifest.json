@@ -1,0 +1,11 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/js/notification.js": "/js/notification.js",
+    "/js/onlineclass/assignment.js": "/js/onlineclass/assignment.js",
+    "/js/onlineclass/newsfeed.js": "/js/onlineclass/newsfeed.js",
+    "/js/onlineclass/quiz.js": "/js/onlineclass/quiz.js",
+    "/js/onlineclass/searchClass.js": "/js/onlineclass/searchClass.js",
+    "/js/onlineclass/studentSearchClass.js": "/js/onlineclass/studentSearchClass.js",
+    "/js/search.js": "/js/search.js"
+}

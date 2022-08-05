@@ -1,0 +1,1 @@
+<a href="{{ URL::to('/admin/transfer-money/create') }}" class="btn btn-default">Transfer Money</a>
