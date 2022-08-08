@@ -319,12 +319,48 @@
 	<li class="treeview">
 		<a href="#"><i class="fa fa-th-list"></i> <span>Class</span> <i class="fa fa-angle-left pull-right"></i></a>
 		<ul class="treeview-menu" parent>
-			<li><a href="{{ backpack_url('section_management') }}"><i class="fa fa-address-book-o"></i> <span>Section Management</span></a></li>
-			<li><a href="{{ backpack_url('student-section-assignment') }}"><i class='fa fa-vcard'></i> <span>Sectioning</span></a></li>					
-			<li><a href="{{ backpack_url('teacher-assignment') }}"><i class='fa fa-id-card-o'></i> <span>Teacher Assignments</span></a></li>
-			<li><a href="{{ backpack_url('encode-grade-schedule') }}"><i class='fa fa-id-card-o'></i> <span>Encode Grade Schedule</span></a></li>
-			<li><a href="{{ backpack_url('employee-encode-grade-schedule') }}"><i class='fa fa-id-card-o'></i> <span>Employee Encoding Schedule</span></a></li>
-			<li><a href="{{ backpack_url('school-calendar') }}"><i class='fa fa-calendar'></i> <span>School Calendar</span></a></li>
+			<li>
+				<a href="{{ backpack_url('section_management') }}">
+					<i class="fa fa-address-book-o"></i> 
+					<span>Section Management</span>
+				</a>
+			</li>
+			<li>
+				<a href="{{ backpack_url('student-section-assignment') }}">
+					<i class='fa fa-vcard'></i> 
+					<span>Sectioning</span>
+				</a>
+			</li>					
+			<li>
+				<a href="{{ backpack_url('block-section') }}">
+					<i class='fa fa-vcard'></i> 
+					<span>Block Section</span>
+				</a>
+			</li>
+			<li>
+				<a href="{{ backpack_url('teacher-assignment') }}">
+					<i class='fa fa-id-card-o'></i> 
+					<span>Teacher Assignments</span>
+				</a>
+			</li>
+			<li>
+				<a href="{{ backpack_url('encode-grade-schedule') }}">
+					<i class='fa fa-id-card-o'></i> 
+					<span>Encode Grade Schedule</span>
+				</a>
+			</li>
+			<li>
+				<a href="{{ backpack_url('employee-encode-grade-schedule') }}">
+					<i class='fa fa-id-card-o'></i> 
+					<span>Employee Encoding Schedule</span>
+				</a>
+			</li>
+			<li>
+				<a href="{{ backpack_url('school-calendar') }}">
+					<i class='fa fa-calendar'></i> 
+					<span>School Calendar</span>
+				</a>
+			</li>
 		</ul>
 	</li>
 @endif
