@@ -71,6 +71,9 @@ class RouteServiceProvider extends ServiceProvider
         $this->mapWebOnlineClassRoutes();
 
         $this->mapWebParentRoutes();
+
+        // MODULES FOR COLLEGE
+        $this->mapCollegeRoutes();
     }
 
     /**
@@ -121,6 +124,18 @@ class RouteServiceProvider extends ServiceProvider
     protected function mapPusherRoutes()
     {
         Route::middleware('web')->namespace($this->namespace)->group(base_path('routes/pusher.php'));
+    }
+
+    /**
+     * Define the "college" routes for the application.
+     *
+     * These routes are typically stateless.
+     *
+     * @return void
+     */
+    protected function mapCollegeRoutes()
+    {
+        Route::middleware('web')->namespace($this->namespace)->group(base_path('routes/backpack/college.php'));
     }
 
     /**
